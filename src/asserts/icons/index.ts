@@ -1,0 +1,9 @@
+export {ReactComponent as MoreIcon} from './icon-more.svg';
+export {ReactComponent as DeleteIcon} from './icon-delete.svg';
+export {ReactComponent as EditIcon} from './icon-edit.svg';
+export {ReactComponent as AddIcon} from './icon-add.svg';
+export {ReactComponent as BackIcon} from './icon-backwards.svg';
+export {ReactComponent as ForwardIcon} from './icon-forward.svg';
+export {ReactComponent as CheckIcon} from './icon-check.svg';
+export {ReactComponent as HideIcon} from './icon-hide.svg';
+export {ReactComponent as ShowIcon} from './icon-show.svg';
