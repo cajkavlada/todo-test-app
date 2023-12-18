@@ -6,6 +6,7 @@
     "type": "git",
     "url": "https://github.com/Carvago/frontend-assignment"
   },
+  "homepage": "https://cajkavlada.github.io/todo-test-app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -13,7 +14,9 @@
     "eject": "react-scripts eject",
     "prettify": "prettier --write --config ./.prettierrc --ignore-path ./.prettierignore .",
     "eslint": "eslint --cache --fix -c ./.eslintrc.json .",
-    "typecheck": "tsc --project tsconfig.json --noEmit"
+    "typecheck": "tsc --project tsconfig.json --noEmit",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@chakra-ui/react": "2.5.5",
@@ -72,5 +75,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
   }
 }
