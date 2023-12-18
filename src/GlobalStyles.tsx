@@ -27,15 +27,14 @@ const GlobalStyle = createGlobalStyle`
    time, mark, audio, video {
      margin: 0;
      padding: 0;
-     border: 0;
      font-size: 100%;
      font: inherit;
      vertical-align: baseline;
-     background-color: #E5E5E5;
-     color: #091E42;
    }
    html, body, #root{
     height: 100%;
+    background-color: #E5E5E5;
+    color: #091E42;
   }
 
    a {
@@ -70,6 +69,6 @@ const GlobalStyle = createGlobalStyle`
      font-size: 16px;
      height: 100%;
    }
- `;
+}`;
 
 export default GlobalStyle;

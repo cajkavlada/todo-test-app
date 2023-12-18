@@ -24,8 +24,8 @@ const fontWeights = {
   },
 };
 
-const theme = extendTheme({
-  config: {initialColorMode: 'light', useSystemColorMode: false},
+export const theme = extendTheme({
+  config: {initialColorMode: 'light', useSystemColorMode: false, colorMode: 'red'},
   colors: {
     'text-primary': '#001141',
     'text-secondary': '#4D5667',
@@ -44,19 +44,91 @@ const theme = extendTheme({
     'border-brand': '#0F62FE',
     'border-gray': '#CAD1DE',
     'border-danger': '#E32C1E',
+    brand: {
+      50: '#E3F2FD',
+      100: '#BBDEFB',
+      200: '#90CAF9',
+      300: '#64B5F6',
+      400: '42A5F5',
+      500: '#0F62FE',
+      600: '#1E88E5',
+      700: '#1976D2',
+      800: '#1565C0',
+      900: '#0D47A1',
+    },
   },
+
   components: {
     Button: {
-      baseStyle: () => ({
-        bg: 'unset',
-        backgroundColor: '#0F62FE',
-        color: '#FFFFFF',
+      baseStyle: {
         borderRadius: '100px',
-      }),
+      },
+      defaultProps: {
+        colorScheme: 'brand',
+        // variant: 'ghost',
+      },
+    },
+    Checkbox: {
+      baseStyle: {
+        control: {
+          borderRadius: 'full',
+        },
+      },
+      defaultProps: {
+        colorScheme: 'brand',
+      },
+    },
+    Card: {
+      baseStyle: {
+        container: {
+          p: [6, 10],
+          gap: [6, 10],
+          borderRadius: 24,
+        },
+      },
+      defaultProps: {
+        variant: 'outlined',
+      },
+    },
+    FormLabel: {
+      baseStyle: {
+        fontSize: 'text.small',
+        fontWeight: 'text.base',
+      },
+    },
+    Heading: {
+      variants: {
+        h1: {
+          fontSize: 'heading.1',
+          fontWeight: 'heading.1',
+        },
+        h2: {
+          fontSize: 'heading.2',
+          fontWeight: 'heading.2',
+        },
+        h3: {
+          fontSize: 'heading.3',
+          fontWeight: 'heading.3',
+        },
+      },
+    },
+    Text: {
+      variants: {
+        base: {
+          fontSize: 'text.base',
+          fontWeight: 'text.base',
+        },
+        small: {
+          fontSize: 'text.small',
+          fontWeight: 'text.base',
+        },
+        smallAlternative: {
+          fontSize: 'text.small',
+          fontWeight: 'text.alternative',
+        },
+      },
     },
   },
   fontSizes,
   fontWeights,
 });
-
-export default theme;
