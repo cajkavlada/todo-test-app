@@ -36,4 +36,4 @@ export const router = createBrowserRouter([
       },
     ],
   },
-]);
+], {basename: '/todo-test-app'});
