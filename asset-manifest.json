@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/todo-test-app/static/js/main.c41717f1.js",
+    "static/media/logoWithName.svg": "/todo-test-app/static/media/logoWithName.118253397f1975fc1a46ac1f6bf36ab8.svg",
+    "static/media/largeLogo.svg": "/todo-test-app/static/media/largeLogo.1732b69ccd846d14eb51d9596aa7d6f1.svg",
+    "static/media/icon-hide.svg": "/todo-test-app/static/media/icon-hide.73f39eaeac7b513dba56b83ad9d0ca10.svg",
+    "static/media/icon-show.svg": "/todo-test-app/static/media/icon-show.6f7449102abfe1dc37cda5fccbdc6d27.svg",
+    "static/media/icon-more.svg": "/todo-test-app/static/media/icon-more.29542a991d2fc43a3c7cd17f3498e514.svg",
+    "index.html": "/todo-test-app/index.html",
+    "static/media/icon-edit.svg": "/todo-test-app/static/media/icon-edit.9d2dd232db636cd80b69abfee663b092.svg",
+    "static/media/icon-delete.svg": "/todo-test-app/static/media/icon-delete.c74e76d3d4f6cae207504c40f6cf9c39.svg",
+    "static/media/icon-forward.svg": "/todo-test-app/static/media/icon-forward.0aac28558b9bf68e78c3e1fb67465845.svg",
+    "static/media/icon-backwards.svg": "/todo-test-app/static/media/icon-backwards.d59e059728a29f0568ce021655e2f2e9.svg",
+    "static/media/icon-add.svg": "/todo-test-app/static/media/icon-add.0b06530ff32fa686d9e92f09fb367279.svg",
+    "static/media/icon-check.svg": "/todo-test-app/static/media/icon-check.b5e2b10379a56c374fac172f3c8121bd.svg",
+    "main.c41717f1.js.map": "/todo-test-app/static/js/main.c41717f1.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c41717f1.js"
+  ]
+}
