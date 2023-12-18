@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/todo-test-app/static/js/main.c41717f1.js",
+    "main.js": "/todo-test-app/static/js/main.e39a22c0.js",
     "static/media/logoWithName.svg": "/todo-test-app/static/media/logoWithName.118253397f1975fc1a46ac1f6bf36ab8.svg",
     "static/media/largeLogo.svg": "/todo-test-app/static/media/largeLogo.1732b69ccd846d14eb51d9596aa7d6f1.svg",
     "static/media/icon-hide.svg": "/todo-test-app/static/media/icon-hide.73f39eaeac7b513dba56b83ad9d0ca10.svg",
@@ -13,9 +13,9 @@
     "static/media/icon-backwards.svg": "/todo-test-app/static/media/icon-backwards.d59e059728a29f0568ce021655e2f2e9.svg",
     "static/media/icon-add.svg": "/todo-test-app/static/media/icon-add.0b06530ff32fa686d9e92f09fb367279.svg",
     "static/media/icon-check.svg": "/todo-test-app/static/media/icon-check.b5e2b10379a56c374fac172f3c8121bd.svg",
-    "main.c41717f1.js.map": "/todo-test-app/static/js/main.c41717f1.js.map"
+    "main.e39a22c0.js.map": "/todo-test-app/static/js/main.e39a22c0.js.map"
   },
   "entrypoints": [
-    "static/js/main.c41717f1.js"
+    "static/js/main.e39a22c0.js"
   ]
 }
